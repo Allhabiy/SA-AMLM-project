@@ -1,3 +1,4 @@
-# SA-AMLM-project
+Day 1 
 
-this is the main Project
+
+Day 2
