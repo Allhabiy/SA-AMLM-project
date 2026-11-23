@@ -1,7 +1,7 @@
 # SDA-DSC-211 · Tamweel Lite
 
 My work for the Advanced Machine Learning Methods course (SDA-DSC-211).
-I build one credit-risk project over five daily labs, using synthetic data only.
+I build one credit-risk project over four daily labs, using synthetic data only.
 
 
 
