@@ -31,18 +31,3 @@ I chose **Logistic Regression**. It had the best ROC-AUC (0.821, versus 0.812 fo
 
 I found two leaky columns, `days_past_due_60` and `collection_calls`, which are recorded after the application. With them the ROC-AUC was 0.9999; after removing them it was about 0.80. I prevented leakage by dropping them, using forward time splits with no shared customers, and fitting the imputer on training rows only.
 
-### Day 3 | اليوم 3
-
-A 0.5 threshold ignores unequal costs and limited review capacity. At 0.5 the model flagged 19.9% of cases, over the 12% limit. I used 0.6583, which keeps flags within capacity in every period, and accepted a higher loss (2,639 units versus 2,275 without a limit).
-
-### Day 4 | اليوم 4
-
-The most important feature was `bureau_score`, followed by `dti`. This shows what the model relies on, not what causes default, so it does not prove causation. Sigmoid calibration also lowered Brier from 0.1130 to 0.0671.
-
-### Day 5 | اليوم 5
-
-I kept a single model, Logistic Regression. It had the highest mean AP (0.392) and the lowest Brier and ECE among the strongest candidates, and no ensemble passed the improvement gate.
-
-## Notes
-
-- All data is synthetic. No passwords, tokens, API keys or personal data are stored here.
