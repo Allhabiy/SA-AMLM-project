@@ -1,0 +1,25 @@
+{
+  "problem_statement": "",
+  "candidate": null,
+  "notes": {
+    "evidence": "",
+    "limitation": "",
+    "next_test": ""
+  },
+  "exit_answers": [
+    "",
+    ""
+  ],
+  "checkpoint": {
+    "status": "LEARNER_WORK_REQUIRED",
+    "missing": [
+      "Choose one of the three model names.",
+      "Write your evidence note.",
+      "Write your limitation note.",
+      "Write your next_test note.",
+      "Write your problem statement.",
+      "Answer both exit questions."
+    ],
+    "automatic_grade": null
+  }
+}

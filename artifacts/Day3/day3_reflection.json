@@ -1,0 +1,23 @@
+{
+  "source": "LIVE",
+  "responses": {
+    "threshold_reason": "",
+    "cost_capacity_tradeoff": "",
+    "regional_gap": "",
+    "limitations": "",
+    "why_accuracy_misleads": "",
+    "why_oof": ""
+  },
+  "checkpoint": {
+    "status": "LEARNER_WORK_REQUIRED",
+    "missing": [
+      "threshold_reason",
+      "cost_capacity_tradeoff",
+      "regional_gap",
+      "limitations",
+      "why_accuracy_misleads",
+      "why_oof"
+    ],
+    "automatic_grade": null
+  }
+}
