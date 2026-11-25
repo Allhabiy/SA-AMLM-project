@@ -11,7 +11,7 @@ I build one credit-risk project over four daily labs, using synthetic data only.
 |---|---|---|
 | 1 | Baseline and boosting | Notes ready, run in Colab |
 | 2 | Validation and tuning | Notes ready, run in Colab |
-
+| 3 | Validation and tuning | Notes ready, run in Colab |
 
 ## Repository
 
