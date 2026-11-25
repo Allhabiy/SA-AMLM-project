@@ -1,0 +1,22 @@
+{
+  "responses": {
+    "global_local": "",
+    "output_units": "",
+    "reason_limits": "",
+    "calibration_evidence": "",
+    "stability": "",
+    "review_capacity": ""
+  },
+  "checkpoint": {
+    "status": "LEARNER_WORK_REQUIRED",
+    "missing": [
+      "global_local",
+      "output_units",
+      "reason_limits",
+      "calibration_evidence",
+      "stability",
+      "review_capacity"
+    ],
+    "no_automatic_grade": true
+  }
+}
